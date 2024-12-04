@@ -1,5 +1,5 @@
 # 280-Project
-### Keep all files in 
+### Keep all files in same directory
 1. Run trim.py to set make lists more manageable
 2. In MySQL, load files in order of load_table.sql, load_views.sql, load_triggers.sql, then load_procedures.sql
 3. In the user_and_follow.py, on line 27, insert the password to your mysql database, if appropriate
