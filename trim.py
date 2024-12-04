@@ -12,7 +12,7 @@ file.close()
 file1.close()
 
 with open('higgs-reply_network.edgelist', 'r') as re_file:
-    with open('reply.txt', 'w') as re_out:
+    with open('comments.txt', 'w') as re_out:
         for line in re_file:
             line = line.strip()
             info = line.split(" ")
